@@ -1,0 +1,28 @@
+<div class="app-contact">
+    <div class="d-flex justify-content-center align-items-center">
+        <div>
+          <h2 class="text-uppercase mb-3 fs-1 fw-bolder">conatct section</h2>
+          <div class="star d-flex align-items-center justify-content-center mb-3">
+            <div class="line bg-black me-3"></div>
+            <i class="fa-solid fa-star"></i>
+            <div class="line bg-black ms-3"></div>
+          </div>
+        </div>
+      </div>
+      
+        <div  class="w-50 p-3 mx-auto mt-5 ">
+         <label for="userName" [class.__top]="add()" >userName:</label>
+         <input [(ngModel)]="lab"  type="text" id="userName" placeholder="userName" class=" inp form-control border-0 border-bottom py-3 position-relative ">
+         <label for="userAge" [class.__top]="add1()">userAge:</label>
+         <input [(ngModel)]="lab1" type="text" id="userAge" placeholder="userAge" class=" inp form-control border-0 border-bottom py-3 position-relative ">
+         <label for="userEmail" [class.__top]="add2()">userEmail:</label>
+         <input [(ngModel)]="lab2" type="text" id="userEmail" placeholder="userEmail" class=" inp form-control border-0 border-bottom py-3 position-relative ">
+         <label for="userPassword" [class.__top]="add3()">userPassword:</label>
+         <input [(ngModel)]="lab3" type="text" id="userPassword" placeholder="userPassword" class=" inp form-control border-0 border-bottom py-3 position-relative ">
+       <button class=" but btn mt-4 text-white"> send Message </button>
+       
+        </div>
+        
+</div>
+
+

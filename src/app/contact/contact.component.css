@@ -1,0 +1,21 @@
+.app-contact{
+    margin-top: 120px;
+    min-height: calc(-106px + 100vh);
+}
+.line {
+    height: 4px;
+    width: 80px;
+    
+  }
+  label{
+    position: relative;
+    top: 0;
+    color: #1abc9c;
+    margin-bottom: 7px;
+    transition: .6s top;
+  }
+  .__top{
+    top: 40px !important;}
+   .but{
+    background-color: #1abc9c;
+   }

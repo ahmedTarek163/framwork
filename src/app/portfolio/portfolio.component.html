@@ -1,0 +1,127 @@
+<div>
+  <div class="app-port">
+    <div class="d-flex justify-content-center align-items-center">
+      <div>
+        <h2 class="text-uppercase mb-3 fs-1 fw-bolder">portfolio component</h2>
+        <div class="star d-flex align-items-center justify-content-center mb-3">
+          <div class="line bg-black me-3"></div>
+          <i class="fa-solid fa-star"></i>
+          <div class="line bg-black ms-3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container mb-5">
+      <div class="row g-4">
+         @for (image of images; track $index) {
+        <div class="col-md-4" >
+          <div class="cont rounded-3 overflow-hidden position-relative">
+            <img class="rounded-3 w-100" [src]="image" alt="">
+            <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+              <i class="text-white fa-solid fa-plus fa-6x"></i>
+            </div>
+          </div>
+        </div>}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="model position-fixed start-0 w-100 top-0 h-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center d-none">
+  <img class="w-50" [src]="selectedImage" alt="">
+</div>
+
+
+  
+
+
+
+<!-- 
+
+<div>
+<div class="app-port">
+    <div class="d-flex justify-content-center align-items-center">
+        <div>
+        <h2 class="text-uppercase mb-3 fs-1 fw-bolder">portfolio component</h2>
+        <div class="star d-flex align-items-center justify-content-center mb-3">
+            <div class="line bg-black  me-3"></div>
+            <i class="fa-solid fa-star"></i>
+            <div class="line bg-black ms-3"></div>
+
+         </div>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="cont rounded-3 overflow-hidden position-relative">
+                    <img class="rounded-3 w-100" src="../../assets/images/poert1.png" alt="">
+                    <div class="layer  position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                          <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-4">
+                <div class="cont rounded-3 overflow-hidden position-relative">
+                    <img class="rounded-3 w-100" src="../../assets/images/port2.png" alt="">
+                    <div class="layer  position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                          <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-4">
+                <div class="cont rounded-3 overflow-hidden position-relative">
+                    <img class="rounded-3 w-100" src="../../assets/images/port3.png" alt="">
+                    <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                          <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-4">
+                <div class="cont rounded-3 overflow-hidden position-relative">
+                    <img class="rounded-3 w-100" src="../../assets/images/poert1.png" alt="">
+                    <div class="layer  position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                          <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-4">
+                <div class="cont rounded-3 overflow-hidden position-relative">
+                    <img class="rounded-3 w-100" src="../../assets/images/port2.png" alt="">
+                    <div class="layer  position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                          <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-4">
+                <div class="cont rounded-3 overflow-hidden position-relative">
+                    <img class="rounded-3 w-100" src="../../assets/images/port3.png" alt="">
+                    <div class="layer  position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                          <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</div>
+
+</div>
+<div class="model position-fixed start-0 w-100 top-0 h-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center d-none">
+    <img class="w-50" src="../../assets/images/port3.png" alt="">
+</div> -->

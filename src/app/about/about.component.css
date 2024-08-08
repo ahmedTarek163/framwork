@@ -1,0 +1,13 @@
+.about{
+     min-height: calc(-106px + 100vh);margin-top: 86px;
+    background-color: #1abc9c; 
+    color: white;
+}
+.line{
+    height: 4px;
+    width: 80px;
+  }
+  .par{
+    padding-inline: 300px;
+    
+  }
